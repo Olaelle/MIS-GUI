@@ -1,0 +1,24 @@
+C:\Users\user\source\repos\Fiscor MIS\bin\Debug\Fiscor MIS.exe.config
+C:\Users\user\source\repos\Fiscor MIS\bin\Debug\Fiscor MIS.exe
+C:\Users\user\source\repos\Fiscor MIS\bin\Debug\Fiscor MIS.pdb
+C:\Users\user\source\repos\Fiscor MIS\bin\Debug\Fiscor MIS.xml
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.vbprojAssemblyReference.cache
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Resources.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.exe
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.xml
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor MIS.pdb
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Form1.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.SaleAndInventory.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Cashier_form.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Dashboard.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Form5.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.CashManagement.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.Customer.resources
+C:\Users\user\source\repos\Fiscor MIS\obj\Debug\Fiscor_MIS.NavigatorFrm.resources
+C:\Users\Roro\Downloads\Fiscor MIS-20221201T083956Z-001 (1)\Fiscor MIS\obj\Debug\Fiscor MIS.vbproj.AssemblyReference.cache
+C:\Users\Roro\Downloads\Fiscor MIS-20221201T083956Z-001 (1)\Fiscor MIS\obj\Debug\Fiscor MIS.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Roro\Downloads\Fiscor MIS-20221201T083956Z-001 (1)\Fiscor MIS\obj\Debug\Fiscor MIS.exe
+C:\Users\Roro\Downloads\Fiscor MIS-20221201T083956Z-001 (1)\Fiscor MIS\obj\Debug\Fiscor MIS.xml
+C:\Users\Roro\Downloads\Fiscor MIS-20221201T083956Z-001 (1)\Fiscor MIS\obj\Debug\Fiscor MIS.pdb

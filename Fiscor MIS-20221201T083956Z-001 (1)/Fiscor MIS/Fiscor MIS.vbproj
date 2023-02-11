@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F51CCF20-1158-419F-920E-9F858DB1DFBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Fiscor_MIS.My.MyApplication</StartupObject>
+    <RootNamespace>Fiscor_MIS</RootNamespace>
+    <AssemblyName>Fiscor MIS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Fiscor MIS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Fiscor MIS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cashier form.Designer.vb">
+      <DependentUpon>Cashier form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addnewreport.Designer.vb">
+      <DependentUpon>addnewreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addnewreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employeeinformation.Designer.vb">
+      <DependentUpon>Employeeinformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employeeinformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accountsettings.Designer.vb">
+      <DependentUpon>Accountsettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accountsettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log-in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log-in.Designer.vb">
+      <DependentUpon>Log-in.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashManagement.Designer.vb">
+      <DependentUpon>CashManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.vb">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NavigatorFrm.Designer.vb">
+      <DependentUpon>NavigatorFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleAndInventory.Designer.vb">
+      <DependentUpon>SaleAndInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SaleAndInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cashier form.resx">
+      <DependentUpon>Cashier form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addnewreport.resx">
+      <DependentUpon>addnewreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employeeinformation.resx">
+      <DependentUpon>Employeeinformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accountsettings.resx">
+      <DependentUpon>Accountsettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log-in.resx">
+      <DependentUpon>Log-in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashManagement.resx">
+      <DependentUpon>CashManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigatorFrm.resx">
+      <DependentUpon>NavigatorFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleAndInventory.resx">
+      <DependentUpon>SaleAndInventory.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Cashier_form.datasource" />
+    <None Include="My Project\DataSources\CashManagement.datasource" />
+    <None Include="My Project\DataSources\Customer.datasource" />
+    <None Include="My Project\DataSources\Dashboard.datasource" />
+    <None Include="My Project\DataSources\Fiscor_MIS.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Fiscor_MIS.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\DataSources\Form5.datasource" />
+    <None Include="My Project\DataSources\NavigatorFrm.datasource" />
+    <None Include="My Project\DataSources\SaleAndInventory.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
